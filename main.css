@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav{
+  height: 15vh;
+  width: 100%;
+  background-color: #e98b1f;
+  display: flex;
+  align-items: center;
+}
+
+nav > a{
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+footer{
+  height: 15vh;
+  width: 100%;
+  background-color: #e98b1f;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#logo-metro{
+  width: 100px;
+}
+
+#portada-metro{
+  background: url("assets/metroportada.jpg");
+  background-position-y: -100px;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-size: 30px;
+}
+
+.cards-section{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  text-align: center;
+  margin: 50px 0 0 0 ;
+}
+
+.card-station{
+  width: 20%;
+}
